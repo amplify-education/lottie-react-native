@@ -95,6 +95,7 @@ class LottieView extends React.Component {
   }
 
   runCommand(name, args = []) {
+    console.log(LottieViewManager);
     return Platform.select({
       android: () =>
         UIManager.dispatchViewManagerCommand(
