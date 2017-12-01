@@ -19,6 +19,7 @@ const NativeLottieView = SafeModule.component({
 const LottieViewManager = SafeModule.module({
   moduleName: 'LottieAnimationView',
   mock: {
+    playSegments: () => {},
     play: () => {},
     reset: () => {},
   },
